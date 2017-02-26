@@ -1,0 +1,38 @@
+body{
+	background: #f9f9f9;
+}
+.box{
+    width: 100%;
+    min-height: 100%;
+    height: auto;
+    display: -webkit-box;
+    display: box;
+    display: -moz-box;
+    display: -o-box;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -o-box-align: center;
+    box-align: center;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -o-box-pack: center;
+    box-pack: center;
+}
+.footer{
+    color: #9d9d9d;
+    text-align: center;
+    height: 80px;
+    margin-top: -80px;
+}
+.box .wrapper{
+	padding-bottom: 80px;
+}
+.box .wrapper .layOut{
+    width: 854px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+.box .wrapper .layOut .regist{
+	background: #fff;
+	padding:34px 30px 30px;
+}

@@ -1,0 +1,184 @@
+/*导航 开始*/
+.site_header{
+	width:100%;
+	height:100px;
+
+}
+.site_header .container{
+	margin:auto;
+	width:1226px;
+	height:100px;
+	position: relative;
+}
+.container .header_logo{
+	width:62px;
+	margin-top:22px;
+	float: left;
+	cursor: pointer;
+}
+.header_logo .logo{
+	display: block;
+	width:55px;
+	height:55px;
+	background: #ff6700 url(../../img/index/mi-logo.png) 50% 50%;
+	position: relative;
+}
+.header_logo .doodle {
+	display: block;
+	
+}
+.header_logo .doodle .link_block{
+	position: absolute;
+	width:165px;
+	height:100px;
+	display: block;
+	left:69px;
+	bottom: 0;
+	cursor: pointer;
+	background: url(../../img/index/mi5s.gif) no-repeat center center;
+	z-index: 21;
+}
+.container .header_nav {
+	float: left;
+	width:830px;
+	height:100px;
+	padding-left: 30px;	
+	position:relative;
+	z-index: 10;
+}
+.header_nav .nav_list{
+	width:850px;
+	height:100px;
+	line-height: 100px;
+
+}
+.header_nav .nav_list .nav_item{
+	float: left;
+	font-size:16px;
+	padding:0 10px;
+}
+.header_nav .nav_list .nav_item a {
+	cursor: pointer;
+	color: #333;
+}
+.nav_list .nav_item.nav_item_categroy{
+	padding-right:35px;
+	
+}
+.nav_list .nav_item.nav_item_categroy .nav_item_categroy_first{
+	visibility: hidden;
+}
+.container .header_search{
+	float: right;
+	width:296px;
+	margin-top:25px;	
+}
+.header_search .search_form{
+	display: block;
+	width:296px;
+	height:50px;
+	position: relative;
+}
+.search_form .search_text{
+	position: absolute;
+	width:223px;
+	height:48px;
+	border: 1px solid #e0e0e0;
+	top:0;
+	left:0;
+	padding: 0 10px;
+	outline: none;
+}
+.search_form .search_btn{
+	position: absolute;
+	width:52px;
+	height:50px;
+	border: 1px solid #e0e0e0;
+	top:0;
+	right:0;
+	background-color:#fff; 
+	outline: none;
+}
+.search_form .search_btn:hover{
+	border: 1px solid #ff6700;
+	background: #ff6700;
+	color: #fff;
+	cursor: pointer;
+}
+@font-face {font-family: 'iconfont';
+    src: url('iconfont-search.eot'); /* IE9*/
+    src: url('iconfont-search.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('iconfont-search.woff') format('woff'), /* chrome、firefox */
+    url('iconfont-search.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('iconfont-search.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.search_form .iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+.search_form .search_hotWords{
+	position:absolute;
+	top:16px;
+	right:64px;
+	text-align: right;
+}
+.search_hotWords a{
+	display: inline-block;
+	margin-left: 5px;
+	padding:0 5px;
+	background: #eee;
+	color:#757575;
+	line-height: 18px;
+}
+.search_hotWords a:hover{
+	background: #ff6700;
+	color: #fff;
+	cursor: pointer;
+	transition: all 0.2s;
+}
+.nav_sideCategroy{
+	position:absolute;
+	width:234px;
+	height:460px;
+	top:100px;
+	left:-62px;
+	font-size: 14px;
+	display: block;
+}
+.categroy_side_list{
+	height:420px;	
+	background: rgba(0,0,0,0.6);
+	padding:20px 0;
+}
+.container .header_nav .nav_sideCategroy .categroy_side_list .categroy_side_item a{
+	position:relative;
+	height:42px;
+	line-height:42px;
+	padding-left: 30px;
+	display: block;
+	color:#fff;	
+}
+@font-face {font-family: 'iconfont';
+    src: url('iconfont-right.eot'); /* IE9*/
+    src: url('iconfont-right.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('iconfont-right.woff') format('woff'), /* chrome、firefox */
+    url('iconfont-right.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('iconfont-right.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.categroy_side_list .categroy_side_item a .iconfont{
+    font-family:"iconfont" !important;
+    font-size:14px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    position: absolute;
+    top:12px;
+    right:20px;
+    color:rgba(255,255,255,.5);
+    line-height: 16px;
+}
+
+/*导航 结束*/

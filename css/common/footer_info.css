@@ -1,0 +1,54 @@
+.site_info{
+	width:100%;
+	height:106px;
+	padding:30px 0 ;
+	background: #fafafa;
+}
+.site_info .container{
+	width:1226px;
+	margin: 0 auto;
+	height:57px;
+}
+.site_info .container .logo{
+	width:57px;
+	height:57px;
+	float: left;
+	background: url(../../img/index/logo-footer.png);
+	margin-right:10px;
+}
+.site_info .container .info_text{
+	float: left;
+	color: #b0b0b0;	
+}
+.site_info .container .info_text .sites{
+	line-height:20px;
+}
+.site_info .container .info_text .sites a {
+	color: #757575;
+}
+.site_info .container .info_text  a{
+	color: #b0b0b0;
+}
+.site_info .container .info_text  a:hover{
+	color: #ff6700;
+}
+.site_info .container .info_text .sites span{
+    margin-left:4px;
+    margin-right: 1px;
+}
+.site_info .container .info_link{
+	float: right;
+	height:28px;
+	margin-top:4px;
+}
+.site_info .container .info_link img{
+	width:auto;
+	height:28px;
+	margin-left:7px;
+}
+.site_info .slogan{
+	width:267px;
+	height:19px;
+	background: url(../../img/index/slogan2016.png);
+	margin:30px auto 0;
+}

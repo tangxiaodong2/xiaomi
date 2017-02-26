@@ -1,0 +1,101 @@
+/*主体 开始*/	
+.home_banner{
+	margin:auto;
+	padding:auto;
+	width:1226px;
+	height:1108px;
+}
+.home_banner .home_hero{
+	width:1226px;
+	height: 644px;
+	margin-bottom: 26px;
+}
+.home_hero .home_hero_slider{
+	width:1226px;
+	height: 460px;
+	background: #eee url(../img/index/banner1.jpg);
+}
+.home_hero .home_hero_sub{
+	width: 1240px;
+	height:170px;
+	margin-top: 14px;
+	margin-left: -14px;
+}
+.home_hero_sub .sub_icons{
+	float: left;
+	width:234px;
+	margin-left: 14px;
+	
+}
+.sub_icons .icons_lists{
+	display: block;
+	background: #5f5750;
+	padding:3px;
+	text-align: center;
+	height:164px;
+
+}
+.sub_icons .icons_lists li{
+	display: block;
+	width:70px;
+	height:82px;
+	padding:8px 3px 0 3px;
+	float: left;
+}
+.sub_icons .icons_lists li a{
+	color: rgba(255,255,255,0.7);
+}
+.sub_icons .icons_lists li a:hover{
+	color: rgba(255,255,255,1);
+	transition: all 0.2s;
+}
+@font-face {font-family: 'iconfont';
+    src: url('iconfont-phone.eot'); /* IE9*/
+    src: url('iconfont-phone.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('iconfont-phone.woff') format('woff'), /* chrome、firefox */
+    url('iconfont-phone.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('iconfont-phone.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.icons_lists li a .iconfont{
+    font-family:"iconfont" !important;
+    font-size:32px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    display: block;
+    margin-bottom: 5px
+}
+.home_hero_sub .sub_imgs{
+	width:978px;
+	height:170px;
+	margin-left: 14px;
+	float: left;	
+}
+.sub_imgs .imgs_lists li{
+	display: block;
+	height:170px;
+	float: left;
+	margin-left: 15px;
+}
+.sub_imgs .imgs_lists li:hover{
+	-webkit-box-shadow: 0px 15px 30px rgba(0,0,0,0.1);
+	transition: all 0.5s;
+}
+.sub_imgs .imgs_lists li:first-child{
+	margin-left: 0;
+}
+.sub_imgs .imgs_lists li img{
+	width:316px;
+	height:170px;
+}
+.home_banner .home_star_goods{
+	width:1226px;
+	height:438px;
+	/*background: pink;*/
+}
+.home_main{
+	width:100%;
+	height:4614px;
+
+}
+/*主体 结束*/
